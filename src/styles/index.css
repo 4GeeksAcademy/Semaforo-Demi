@@ -1,11 +1,40 @@
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.cuerpoSemaforo {
+    width: 300px;
+    height: 650px;
+    background-color: black;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
 
-*/
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.luz {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.luzVerde {
+    background-color: green;
+}
+
+.luzAmarilla {
+    background-color: yellow;
+}
+.luzRoja {
+    background-color: red;
+}
+
+.luzActiva {
+    box-shadow: 0 0 25px 15px rgba(255, 255, 100, 0.6);
+  }
